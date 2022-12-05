@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class jfoexercicio3 {
     public static void main(String[] args) {
+        //Nesta historia nosso campeao teve que forncer dados na sua trajetoria de apredendizado java, tendo que for alguns dados pessoais e gosto particulares.
         Scanner sc = new Scanner(System.in);
      System.out.print("Insira o nome:");
      String nome = sc.next();
@@ -26,7 +27,7 @@ public class jfoexercicio3 {
 
      System.out.println();
 
-     //Nesta etapa foram feitas algunas contas com dados do campeão da historia
+     //Nesta etapa foram feitas algunas contas com dados do campeão da historia.
 
      System.out.println("Qual dobro da idade do campeão ? ");
      int dobroidade = idade*2;
@@ -36,7 +37,7 @@ public class jfoexercicio3 {
      double triploaltura = altura*3;
      System.out.println("O triplo da altura é " + triploaltura);
      System.out.println();
-
+     // Dados coletados na trajetoria de aprendizado java do nosso campeao.
      System.out.println("Dados coletados do campeão");
      System.out.println("Nome: " + nome);
      System.out.println("Idade: " + idade);
